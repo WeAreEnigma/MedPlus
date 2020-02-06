@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 118 74" width="118" height="74">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ff609c } 
+	</style>
+	<g id="Nav Bar">
+		<g id="Navbar">
+			<path id="Rectangle 11" class="shp0" d="M1 1L112 1C114.76 1 117 3.65 117 6.87L117 68.75C117 71.11 115.12 73 112.8 73L19.49 73L1 1Z" />
+		</g>
+	</g>
+</svg>

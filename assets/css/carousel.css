@@ -1,0 +1,61 @@
+/* carousel */
+
+/* small - display 1 */
+@media (max-width: 576px) {
+  .top_product_carousel .carousel-inner .carousel-item-right.active,
+  .top_product_carousel .carousel-inner .carousel-item-next {
+      transform: translateX(100%);
+  }
+
+  .top_product_carousel .carousel-inner .carousel-item-left.active,
+  .top_product_carousel .carousel-inner .carousel-item-prev {
+      transform: translateX(-100%);
+  }
+}
+
+/* medium - display 2  */
+@media (min-width: 768px) {
+  .top_product_carousel .carousel-inner .carousel-item-right.active,
+  .top_product_carousel .carousel-inner .carousel-item-next {
+      transform: translateX(50%);
+  }
+
+  .top_product_carousel .carousel-inner .carousel-item-left.active,
+  .top_product_carousel .carousel-inner .carousel-item-prev {
+      transform: translateX(-50%);
+  }
+}
+
+/* large - display 3 */
+@media (min-width: 992px) {
+  .top_product_carousel .carousel-inner .carousel-item-right.active,
+  .top_product_carousel .carousel-inner .carousel-item-next {
+      transform: translateX(25%);
+  }
+
+  .top_product_carousel .carousel-inner .carousel-item-left.active,
+  .top_product_carousel .carousel-inner .carousel-item-prev {
+      transform: translateX(-25%);
+  }
+}
+
+@media (max-width: 768px) {
+  .top_product_carousel .carousel-inner .carousel-item>div {
+    display: none;
+  }
+
+  .top_product_carousel .carousel-inner .carousel-item>div:first-child {
+    display: block;
+  }
+}
+
+.top_product_carousel .carousel-inner .carousel-item.active,
+.top_product_carousel .carousel-inner .carousel-item-next,
+.top_product_carousel .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+.top_product_carousel .carousel-inner .carousel-item-right,
+.top_product_carousel .carousel-inner .carousel-item-left {
+  transform: translateX(0);
+}
