@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 31 24" width="31" height="24">
+	<defs>
+		<image width="31" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB8AAAAYCAMAAAA1ddazAAAAAXNSR0IB2cksfwAAAhZQTFRF////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////l+pv6wAAALJ0Uk5TAAEaasz/76tFBgIoleb54tTX7PtiDA84MkCwhkY0N1ys+PRzBwU1jcje2OEUd/VRTcra7c5BCYj8thvfpyssSULHUyG0lxINcFUfGQqH+nn9iS+uKRCZlg4YpHgjqqITke58qPeLBCWeHi7rfVnSVANmC5IILbUkhFaymBGAjOWDxq3PJsnCpZzBoeCOy9XN0D8qurMcNnrjab67YTEgMKNrOrnwxbev6mOK1vbcIn/DxCUgcLoAAAH7SURBVHicY2BAAYxMzCysrKxs7BycDBiAkYGLm4eXj19AUEiYRUQUTVKMW1xCUoqVX1pGVk5eQVFJWQVZWlVNXUNTS5tVg4MLxNXR1RPSZ0RIcxoYsrIZGRmbmEIFzMwtLK3g0lwc1hY2BrZ29g5wIW5HJSc4x9mF1dUN1T3uPKwecO2ewixeEFd6M0HFfHz9dOGK/QMCIYygYPYQCCs0jDU8AiodGRUQDXZsTCwra1wkWCw+QSkxCWwnJ0dyilJqGpCVHgUMO7+MTLCHs8yz+XLiGRjScgVZ8xLyCxg41VxYwYA9Kw2sr5AtO4ehyMHIoljOrYSBsbSMVS+AldUixU+hHBIoFcK8DJVVFtU1IF6anHRtXT0rq7Z5ToMEJOjsGlkZmhSbW8CcAlEVBu5WVtY2b4YSUXAgM0S0szIIsnYgAsXWkZW1kwnOFe1iZehm7UmDCwT1srI2OsO5ocmsDM2s7WZwAYk+Vtb+cjhXfAIrg2u29kS4wKTJbGxTpsKjIJzVmkGymnUKN0wkTbwyfxqMozNdacZMBtVJs1hnz5lbHlNeXp7uJVZUFDovvbw8JmZ+5QKLxIWgGFi0mHXJ0mWWQLCsTCp4uZQliL1s6QrWvpWQNMi9avUaYQs/ELAICIAwAtas7ZgIS2Dr1lu2behEBm0by6RlQVIA3HVz6A3tbOQAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Upload Prescription">
+		<g id="Group 15">
+			<g id="Upload">
+				<use id="Layer 17" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
