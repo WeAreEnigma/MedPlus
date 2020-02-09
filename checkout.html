@@ -1,0 +1,666 @@
+    <!DOCTYPE html>
+    <html>
+
+    <head>
+
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <title>Basic Header</title>
+
+      <link rel="stylesheet" href="css/style.css">
+      <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css">
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+      <header class="header-fixed">
+
+        <div class="header-limiter">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <div class="row">
+              <div class="col-md-4 left-nav">
+                <a href="">
+                  <img src="images/logo-v.png" width="210px">
+                </a>
+                <a href="" class="all"> All products</a>
+                <a href="" class="btn-a">beauty</a>
+                <a href="" class="btn-a">health</a>
+                <a href="" class="btn-a">brand</a>
+                <hr class="line">
+                <a href="" class="btom">Lifestyle</a>
+                <a href="" class="btom">Store Locator</a>
+                <a href="" class="btom">Events</a>
+                <a href="" class="btom">Blog </a>
+                <a href="" class="btom">Contact Us </a>
+              </div>
+              <div class="col-md-8 right-v">
+                <div class="mbg" style="background-image: url(images/mbg.png);">
+
+                  <ul>
+                    <li>AROMATHERAPY</li>
+                    <li>BODY</li>
+                    <li>NAILS</li>
+                    <li>ORAL & DENTAL CARE</li>
+                    <li>MAKE-UP</li>
+                    <li>FACE</li>
+                    <li>PERSONAL CARE</li>
+                    <li>HAIR</li>
+                    <li style="border-bottom: none;">FRAGRANCES</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="logo">
+            <span onclick="openNav()">
+
+              <img src="images/icons/hum.png" width="40px" style="padding-top: 17px;float: left;"></span>
+              <a href="#" class=""><img src="images/logo.png"></a></div>
+              <form action="/search.html" class="search-wrapper cf">
+                <input type="text" placeholder="Search  |  All Product" required="">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+              <nav>
+                <ul class="right">
+                  <li class="nav-item text-center">
+                    <a href="tel:+234700MEDPLUS">
+                      <img src="images/icons/Contact_Icon.svg" height="20" class="d-inline-block align-top" alt="Call Us">
+                      <p class="nav-link text-uppercase" href="tel:+234700MEDPLUS">Call Us</p>
+                    </a>
+                  </li>
+                  <li class="nav-item text-center">
+                    <a href="/stores">
+                      <img src="images/icons/Store_Selector.svg" height="20" class="d-inline-block align-top" alt="Locate Us">
+                      <p class="nav-link text-uppercase">Locate Us</p>
+                    </a>
+                  </li>
+                  <li class="nav-item text-center">
+
+                    <a class="nav-link text-uppercase" href="/cart">
+                     <img src="images/icons/Cart_Icon.svg" height="20" class="d-inline-block align-top" alt="My Cart">
+                     <p class="nav-link">Cart</p>
+                   </a>
+                 </li>
+                 <li class="nav-item text-center">
+                  <a href="/my-account">
+                    <img src="images/icons/User.svg" height="20" class="d-inline-block align-top" alt="Medplus Logo">
+                    <p class="nav-link text-uppercase" href="/my-account">Sign In</p>
+                  </a>
+
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+
+        </header>
+
+        <!-- You need this element to prevent the content of the page from jumping up -->
+        <div class="header-fixed-placeholder"></div>
+
+        <div class="container-fluid pd pb">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="text-body text-center font-secondary mb-5 t-w200" style="text-transform: uppercase;"> <span class="font-weight-bold">CHECKOUT</span></h1>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-8">
+                     <div class="content">
+      <div class="panel-group " id="accordion1" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" id="headingOne" role="tab">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne">1. Your Info<i class="pull-right fa fa-plus"></i></a></h4>
+          </div>
+          <div class="panel-collapse in collapse show" id="collapseOne1" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+             <div class="row">
+        <div class="col-md-3 login">
+          <a href="">login</a>
+        </div>
+        <div class="col-md-6 guset">
+          <a href="">guset checkout</a>
+        </div>
+      </div>
+      <div class="row frm">
+        <div class="col-lg-12">
+          <form class="row">
+            <div class="col-md-6">
+             <input class="input" placeholder="Email Address" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="Password" type="password" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-12 col-md-8">
+              <a href="" class="login-btn">login</a>
+            </div>
+            <div class="col-12 col-md-8 cl">
+                 <label class="custom-control black-checkbox">
+                       <input type="checkbox" class="fill-control-input">
+                       <span class="fill-control-indicator"></span>
+                       <span class="fill-control-description">Remember Me</span>
+                     </label>
+                     <a href="" class="forget">Forget Password</a>
+            </div>
+            <div class="col-md-8">
+              <button class="loginBtn loginBtn--facebook">
+    Login with Facebook
+  </button>
+            </div>
+          </form>
+        </div>
+      </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+<!-- Shipping details -->
+    <div class="content">
+      <div class="panel-group " id="accordion2" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" id="headingOne" role="tab">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne2" aria-expanded="true" aria-controls="collapseOne">2. Shipping Details<i class="pull-right fa fa-plus"></i></a></h4>
+          </div>
+          <div class="panel-collapse in collapse show" id="collapseOne2" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+      <div class="row frm">
+        <div class="col-lg-12">
+          <form class="row">
+            <div class="col-md-6">
+             <input class="input" placeholder="First Name *" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="Last Name *" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="Address 1 * " type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="Address 2 *" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="Zip Code *" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="City *" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="Country *" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="State *" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="Phone *" type="text" >
+      <span class="underline"></span>
+            </div>
+            
+            <div class="col-12 col-md-8 ">
+                 <label class="custom-control black-checkbox">
+                       <input type="checkbox" class="fill-control-input">
+                       <span class="fill-control-indicator"></span>
+                       <span class="fill-control-description">Remember Me</span>
+                     </label>
+            </div>
+         
+          </form>
+        </div>
+      </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+<!-- end -->
+<!-- Billing -->
+    <div class="content">
+      <div class="panel-group " id="accordion1" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" id="headingOne" role="tab">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne">3. Billing Details<i class="pull-right fa fa-plus"></i></a></h4>
+          </div>
+          <div class="panel-collapse in collapse" id="collapseOne1" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+             <div class="row">
+        <div class="col-md-3 login">
+          <a href="">login</a>
+        </div>
+        <div class="col-md-6 guset">
+          <a href="">guset checkout</a>
+        </div>
+      </div>
+      <div class="row frm">
+        <div class="col-lg-12">
+          <form class="row">
+            <div class="col-md-6">
+             <input class="input" placeholder="Email Address" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-6">
+             <input class="input" placeholder="Password" type="password" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-12 col-md-8">
+              <a href="" class="login-btn">login</a>
+            </div>
+            <div class="col-12 col-md-8 cl">
+                 <label class="custom-control black-checkbox">
+                       <input type="checkbox" class="fill-control-input">
+                       <span class="fill-control-indicator"></span>
+                       <span class="fill-control-description">Remember Me</span>
+                     </label>
+                     <a href="" class="forget">Forget Password</a>
+            </div>
+            <div class="col-md-8">
+              <button class="loginBtn loginBtn--facebook">
+    Login with Facebook
+  </button>
+            </div>
+          </form>
+        </div>
+      </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- ee -->
+    <!-- payment option-->
+    <div class="content">
+      <div class="panel-group " id="accordion1" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" id="headingOne" role="tab">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne1" aria-expanded="true" aria-controls="collapseOne">4. Payment Options<i class="pull-right fa fa-plus"></i></a></h4>
+          </div>
+          <div class="panel-collapse in collapse show" id="collapseOne1" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+             <div class="row">
+        <div class="col-md-4 login">
+         <h6>Select Payment method</h6>
+         <form action="#" class="radioo">
+  <p>
+    <input type="radio" id="test1" name="radio-group" checked>
+    <label for="test1">Credit Card</label>
+  </p>
+  <p>
+    <input type="radio" id="test2" name="radio-group">
+    <label for="test2">Debit Card</label>
+  </p>
+
+  <input class="input" placeholder="Email Address" type="text" >
+      <span class="underline"></span>
+</form>
+        </div>
+        <div class="col-md-6 pts">
+         <img src="images/pay.png">
+        </div>
+      </div>
+      <div class="row frma">
+        <div class="col-lg-12">
+          <form class="row">
+            <div class="col-md-6 mrg">
+             <select class="input">
+               <option>Month *</option>
+               <option>2020</option>
+               <option>2020</option>
+               <option>2020</option>
+               <option>2020</option>
+               <option>2020</option>
+               <option>2023</option>
+               <option>2021</option>
+               <option>2022</option>
+
+             </select>
+            </div>
+            <div class="col-md-6">
+            <select class="input">
+               <option>Year *</option>
+               <option>2020</option>
+               <option>2020</option>
+               <option>2020</option>
+               <option>2020</option>
+               <option>2020</option>
+               <option>2023</option>
+               <option>2021</option>
+               <option>2022</option>
+
+             </select>
+            </div>
+             <div class="col-md-6">
+             <input class="input" placeholder="Security Code *" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-md-8">
+             <input class="input" placeholder="Name on Card *" type="text" >
+      <span class="underline"></span>
+            </div>
+            <div class="col-12 col-md-8">
+              <a href="" class="login-btn">Place Order</a>
+            </div>
+          </form>
+        </div>
+      </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!-- END -->
+              </div>
+
+
+
+  <!-- shpping End -->
+              <div class="col-md-4 right-cc">
+                <div class="row">
+                  <div class="col-md-8 ">
+                   <h6 class="pr">Order Summary </h6>
+                </div>
+               <div class="col-md-4 text-right">
+                 <a href="" class="edite">Edit cart</a>
+               </div>
+                </div>
+                <div class="row imc">
+                <div class="col-md-12 thummc">
+                  <span><img src="images/thum1.png"></span>
+                 <h6>212 MEN NYC PERFUME</h6>
+100ML
+<p><span>Qty: 1</span> <strong>₦ 23,650.00</strong></p>
+                </div>
+              </div>
+                <div class="content">
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" id="headingOne" role="tab">
+            <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Enter Promo Code<i class="pull-right fa fa-plus"></i></a></h4>
+          </div>
+          <div class="panel-collapse collapse in" id="collapseOne" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+             <div class="row">
+        <div class="col-sm-12">
+          <div class="subscribe_now">
+            <form class="subscribe_form">
+              <div class="input-group">
+                 <input type="text" class="form-control" name="email" placeholder="Enter Promo Code">
+                 <span class="input-group-btn">
+                      <button class="btn btn-default" type="button">APPLY NOW</button>
+                 </span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+                <div class="cart-order-totals">
+  <table class="order-totals-table">
+  <tbody>
+  <tr class="order-subtotal" tabindex="0">
+  <td>Subtotal</td>
+  <td>₦ 23,650.00
+  </td>
+  </tr>
+  <tr class="order-shipping" tabindex="0">
+  <td>Shipping &amp; Handling</td>
+  <td>-</td>
+  </tr>
+
+  <tr class="order-sales-tax" tabindex="0">
+  <td>Sales Tax</td>
+
+  <td>-</td>
+
+  </tr>
+  <tr class="order-total" tabindex="0">
+  <td>Estimated Total</td>
+  <td class="order-value">₦ 23,650.00
+  </td>
+  </tr>
+  </tbody>
+  </table>
+
+
+      </div>
+      <div class="row">
+        <div class="col-sm-12 buyc">
+   
+  </div>
+  <div class="col-sm-12 buyb text-center">
+    <h6 class="text-left"><strong>Questions?</strong></h6>
+    <p class="text-left">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <a href="" class="cart-btn2">
+     Continue Shopping >
+    </a>
+  </div>
+      </div>
+              </div>
+            </div>
+    </div>
+
+    <div class="container-fluid bg-dark px-0 py-4 mt-5">
+      <div class="container-xl small py-5 text-white">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-3 col order-sm-2 sm-text-center mb-sm-3 p-t">
+            <h5 class="text-uppercase small font-weight-bold havy-t">CONTACT US</h5>
+            <p>Head office: 45, Saka Tinubu Street,
+            Victoria Island, Lagos</p>
+            <p>Phone number: <a href="tel:+234700MEDPLUS" class="text-white"> 0700 MED PLUS</a></p>
+            <p><a href="mailto:Info@medplusng.com" class="text-white"> Info@medplusng.com</a></p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-3 sm-text-center mb-sm-3 p-t">
+            <h5 class="text-uppercase small font-weight-bold havy-t">customer service</h5>
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Our Customer Promise</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Return &amp; Exchange</a>
+              </li>
+              <li class="nav-item">
+                <a href="/stores" class="nav-link pl-0 text-white">Store Locator</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Shipping Information</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Feedback</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-4 sm-text-center mb-sm-3 p-t">
+            <h5 class="text-uppercase small font-weight-bold havy-t">ABOUT US</h5>
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Company Info</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Career</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Loyalty Scheme</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Pharmacy Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-5 col mb-sm-5 order-sm-1 order-lg-12">
+            <div class="p-sm-3 py-sm-5 p-5 shadow-lg bg-dark mt--subscribe">
+              <h5 class="text-uppercase small font-weight-bold havy-t" style="    font-size: 14px;
+              letter-spacing: 2px;">SUBSCRIBE TO OUR UPDATE</h5>
+              <form class="form-inline py-3">
+                <div class="input-group mb-2 mr-sm-2 " style="width: 100% !important;">
+                  <input type="text" class="form-control form-control-sm bg-transparent border-top-0 border-left-0 border-right-0 rounded-0 mr-3" id="footeremailaddress" placeholder="Email Address" >
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-sm btn-outline-light rounded-0">SUBSCRIBE</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row small">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 sm-text-center mb-sm-3">
+            <div class="social mb-2">
+              <p class="text-white sm-text-center text-left text-uppercase font-weight-bold havy-t">Engage with us.</p>
+              <ul class="nav sm-justify-content-center">
+                <li class="nav-item">
+                  <a class="pr-3" target="_blank" href="https://facebook.com/MedplusPharmacy/">
+                    <img src="/themes/medplus/img/facebook-social.png" width="25">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="pr-3" target="_blank" href="https://twitter.com/MedplusPharmacy/">
+                    <img src="/themes/medplus/img/twitter-social.png" width="25">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="pr-3" target="_blank" href="https://www.instagram.com/medpluspharmacyng/">
+                    <img src="/themes/medplus/img/instagram-social.png" width="25">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 align-self-center p-t">
+            <ul class="nav sm-justify-content-center justify-content-end">
+              <li class="nav-item border-right">
+                <a href="#" class="nav-link text-white link-hover pt-0">Terms &amp; Condition</a>
+              </li>
+              <li class="nav-item border-right">
+                <a href="#" class="nav-link text-white link-hover pt-0">Privacy Policy</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link text-white link-hover pt-0 pr-0">Site Map</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="bg-white my-3">
+        <div class="row small">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
+            <p class="text-white sm-text-center text-left mb-0">2019 Medplus. All right reserved.</p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
+            <a href="http://dmtca.com" target="_blank">
+              <p class="text-white sm-text-center text-right link-hover mb-0">Powered By <span class="font-weight-bold">DMTCA</span></p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script >
+      var Chef = {
+        init: function() {
+          this.productImagePreview();
+          this.menuToggle();
+          this.misc();
+        },
+        
+        productImagePreview: function() {
+          $(document).on('click', '.product-images li', function() {
+            if (!$(this).hasClass('preview')) {
+              var src = $(this).find('img').attr('src');
+              $('.product-images .preview img').attr('src', src);
+            }
+          });
+        },
+        
+        menuToggle: function() {
+          $(document).on('click', '#menu .trigger', function() {
+                // Toggle open and close icons
+                $(this).find('img').each(function() {
+                  if ($(this).hasClass('hidden')) {
+                    $(this).removeClass('hidden');
+                  } else {
+                    $(this).addClass('hidden');
+                  }
+                });
+                
+                // Toggle menu links
+                $(this).siblings('.links').stop(true, true).slideToggle(200);
+                
+                // Toggle open class
+                $('#menu').toggleClass('open');
+              });
+        },
+        
+        misc: function() {
+            // Misc stuff
+            
+            for (var i = 1; i <= 3; i++) {if (window.CP.shouldStopExecution(1)){break;}
+              $('.product').parent().eq(0).clone().appendTo('.product-list');
+          }
+          window.CP.exitedLoop(1);
+
+        }
+      };
+
+      $(function() {
+        Chef.init();
+      });
+    //# sourceURL=pen.js
+    </script>
+    <script type="text/javascript">
+      // hover:
+    // grey and grey
+    // grey and blue
+
+    // active: 
+    // bounce w/ fireworks
+
+    // deactivate: 
+    // cracking + fall apart heart
+
+    $(".button").click(function() {
+      if ( $(this).hasClass( "deactivate" ) ) {
+        $(this).removeClass("deactivate")
+      }
+      if ( $(this).hasClass( "active" ) ) {
+        $(this).addClass("deactivate")
+      }
+      $(this).toggleClass("animate");
+      $(this).toggleClass("active");
+      $(this).toggleClass("inactive");
+    });
+    </script>
+    </body>
+
+    </html>
