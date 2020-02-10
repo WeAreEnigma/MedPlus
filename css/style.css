@@ -3308,3 +3308,81 @@ font-size: 13px;
     color: #757575;
     letter-spacing: 1px;
 }
+
+
+/*---popup--*/
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 2;
+}
+.popup {
+  margin: 5% auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 0px;
+  width: 45%;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .content {
+      max-height: 543px;
+    overflow-x: scroll;
+}
+.heding{
+	font-size: 27px;
+    text-align: center;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 16px;
+    font-weight: 600;
+}
+.pd-20{
+	padding: 0px 60px;
+}
+.pd-20 .buttons_added{
+	float: left;
+}
+.pd-20 .quantity.buttons_added .minus, .quantity.buttons_added .plus {
+    padding: 7px 10px 8px;
+    height: 39px;}
+
+ .pd-20 .quantity .input-text.qty {
+    width: 35px;
+    height: 40px;
+}
+.pd-20 h6{
+	text-align: right;
+	font-size: 19px;
+    font-weight: 600;
+    color: #e6457f;
+}
+.how{
+	text-align: right;
+    padding-right: 40px;
+    margin-top: -23px;
+}
+.how a{
+	color: #e6457f;
+	text-decoration: underline !important;
+}
