@@ -1,365 +1,297 @@
-<html lang="en" class=""><head>
-		<meta charset="utf-8">
-		<title>Medplus Store</title>
-					<meta name="description" content="Shop powered by PrestaShop">
-						<meta name="generator" content="PrestaShop">
-		<meta name="robots" content="index,follow">
-		<meta name="viewport" content="width=device-width, minimum-scale=0.25, maximum-scale=1.6, initial-scale=1.0">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<link rel="icon" type="image/vnd.microsoft.icon" href="/img/favicon.ico?1580564427">
-		<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico?1580564427">
-														
-											
-    <link rel="stylesheet" type="text/css" href="https://medplus.dmtca.work/themes/medplus/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="https://medplus.dmtca.work/themes/medplus/css/main.css">
-    <link rel="stylesheet" type="text/css" href="https://medplus.dmtca.work/themes/medplus/css/carousel.css">
-		    
-    
+    <!DOCTYPE html>
+    <html>
 
-		
-  <style type="text/css">.fancybox-margin{margin-right:17px;}</style></head>
-  <body class="bg-white" style="">
-			    <!-- navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 ">
-      <div class="container-fluid">
-        <div>
-					<span style="cursor:pointer" onclick="openNav()" class="navbar-toggler-icon mr-sm-1 mr-5"></span>
-					<!-- logo section dynamic -->
-					<a class="navbar-brand" href="https://medplus.dmtca.work/" title="Medplus Store">
-						<img class="d-inline-block align-top" src="https://medplus.dmtca.work/img/medplus-store-logo-1577094676.jpg" alt="Medplus Store" height="40">
-					</a>
-        </div>
-				<!-- custom override blocksearch module -->
-				<!-- custom search form by Umar @ DMTCA -->
-<!-- Block search module TOP -->
-<div id="blockSearch" class="align-content-center justify-content-center">
-  <div class="search_block_top">
-	<form class="form-inline my-2 my-lg-0" id="searchbox" method="get" action="//medplus.dmtca.work/search">
-    <div class="input-group mb-2 mr-sm-0">
-      <input type="hidden" name="controller" value="search">
-      <input type="hidden" name="orderby" value="position">
-      <input type="hidden" name="orderway" value="desc">
-      <input type="text" class="form-control search_query rounded-0 vw-30 ac_input" id="search_query_top" name="search_query" placeholder="Search | All Products" value="" autocomplete="off">
-      <div class="input-group-append search_bg p-1">
-        <button type="submit" name="submit_search" class="btn btn-default rounded-0 button-search"><img src="https://medplus.dmtca.work/themes/medplus/img/design_assets/Search_Icon.svg" height="20" class="d-inline-block align-top" alt="Medplus Logo"></button>
-      </div>
-    </div>
-  </form>
-	</div>
-</div>
-<!-- /Block search module TOP -->
-        <div>
-          <ul class="navbar-nav small float-right d-none d-md-flex">
-            <li class="nav-item text-center">
-              <a href="tel:+234700MEDPLUS">
-              <img src="https://medplus.dmtca.work/themes/medplus/img/design_assets/Contact_Icon.svg" height="20" class="d-inline-block align-top" alt="Call Us">
-              </a>
-              <a class="nav-link text-uppercase" href="tel:+234700MEDPLUS">Call Us</a>
-            </li>
-            <li class="nav-item text-center">
-              <a href="/stores">
-              <img src="https://medplus.dmtca.work/themes/medplus/img/design_assets/Store_Selector.svg" height="20" class="d-inline-block align-top" alt="Locate Us">
-              </a>
-              <a class="nav-link text-uppercase" href="/stores">Locate Us</a>
-            </li>
-            <li class="nav-item text-center">
-              <img src="https://medplus.dmtca.work/themes/medplus/img/design_assets/Cart_Icon.svg" height="20" class="d-inline-block align-top" alt="My Cart">
-              <a class="nav-link text-uppercase" href="/cart">Cart</a>
-            </li>
-            <li class="nav-item text-center">
-              <a href="/my-account">
-              <img src="https://medplus.dmtca.work/themes/medplus/img/design_assets/User.svg" height="20" class="d-inline-block align-top" alt="Medplus Logo">
-              </a>
-              <a class="nav-link text-uppercase" href="/my-account">Sign In</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-		</nav>
-		<!-- overlay navigation -->
-    <div id="myNav" class="overlay_navigation">
-      <div class="row h-100">
-        <div class="col-5 bg-white">
-          <div class="row h-100">
-            <div class="col-4 bg-main px-3">
-              <div class="overlay_navigation_content">
-                <div class="pl-3 mb-5">
-                  <button type="button" class="btn btn-block btn-outline-light rounded-sm active text-uppercase mb-4">All Products</button>
-                </div>
-                                                
-<!-- Block categories module -->
+    <head>
 
-	
-	<ul class="nav nav-pills flex-column pl-4 pr-3 mb-3" id="myTab" role="tablist" aria-orientation="vertical">
-				<button type="button" class="btn btn-outline-light rounded-0 btn-sm text-uppercase mb-4 active" id="beautynav-tab" data-toggle="tab" href="#beautynav" role="tab" aria-controls="beautynav" aria-selected=" true" onclick="$('#myTab button:nth-child(1)').siblings().removeClass('active');">BEAUTY</button>
-				<button type="button" class="btn btn-outline-light rounded-0 btn-sm text-uppercase mb-4" id="healthnav-tab" data-toggle="tab" href="#healthnav" role="tab" aria-controls="healthnav" aria-selected="false" onclick="$('#myTab button:nth-child(2)').siblings().removeClass('active');">HEALTH</button>
-				<button type="button" class="btn btn-outline-light rounded-0 btn-sm text-uppercase mb-4" id="brandnav-tab" data-toggle="tab" href="#brandnav" role="tab" aria-controls="brandnav" aria-selected="false" onclick="$('#myTab button:nth-child(3)').siblings().removeClass('active');">BRAND</button>
-			</ul>
-	
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
 
-                <hr class="bg-white mb-4 ml-3">
-                <ul class="nav flex-column pl-3">
-                  <li class="nav-item">
-                    <a class="nav-link text-white py-1 small text-uppercase" href="#">Lifestyle</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white py-1 small text-uppercase" href="#">Store Locator</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white py-1 small text-uppercase" href="#">Events</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white py-1 small text-uppercase" href="#">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white py-1 small text-uppercase" href="#">Contact Us</a>
-                  </li>
-                </ul>
+      <title>Basic Header</title>
+
+      <link rel="stylesheet" href="css/style.css">
+      <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
+      <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css">
+      <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+    <body>
+
+      <header class="header-fixed">
+
+        <div class="header-limiter">
+          <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <div class="row">
+              <div class="col-md-4 left-nav">
+                <a href="">
+                  <img src="images/logo-v.png" width="210px">
+                </a>
+                <a href="" class="all"> All products</a>
+                <a href="" class="btn-a">beauty</a>
+                <a href="" class="btn-a">health</a>
+                <a href="" class="btn-a">brand</a>
+                <hr class="line">
+                <a href="" class="btom">Lifestyle</a>
+                <a href="" class="btom">Store Locator</a>
+                <a href="" class="btom">Events</a>
+                <a href="" class="btom">Blog </a>
+                <a href="" class="btom">Contact Us </a>
               </div>
-            </div>
-            <div class="col-8">
-              <!-- Navigation Tab panes -->
-              <div class="overlay_navigation_second h-100 d-flex d-block align-items-center">
-                <div class="tab-content w-100 px-4">
-                  <div class="tab-pane fade show active" id="beautynav" role="tabpanel" aria-labelledby="beautynav-tab">
-                    <nav class="nav flex-column">
-                      <li class="nav-item border-bottom py-3">
-                        <a class="nav-link text-uppercase d-inline text-dark" href="#">Aromatherapy</a>
-                        <span style="cursor: pointer;" class="float-right pr-3 font-weight-bolder">+</span>
-                      </li>
-                      <li class="nav-item border-bottom py-3">
-                        <a class="nav-link text-uppercase d-inline text-dark" href="#">Body</a>
-                        <span style="cursor: pointer;" class="float-right pr-3 font-weight-bolder">+</span>
-                      </li>
-                      <li class="nav-item border-bottom py-3">
-                        <a class="nav-link text-uppercase d-inline text-dark" href="#">Nails</a>
-                        <span style="cursor: pointer;" class="float-right pr-3 font-weight-bolder">+</span>
-                      </li>
-                      <li class="nav-item border-bottom py-3">
-                        <a class="nav-link text-uppercase d-inline text-dark" href="#">Oral &amp; Dental Care</a>
-                        <span style="cursor: pointer;" class="float-right pr-3 font-weight-bolder">+</span>
-                      </li>
-                      <li class="nav-item border-bottom py-3">
-                        <a class="nav-link text-uppercase d-inline text-dark" href="#">Make-Up</a>
-                        <span style="cursor: pointer;" class="float-right pr-3 font-weight-bolder">+</span>
-                      </li>
-                      <li class="nav-item border-bottom py-3">
-                        <a class="nav-link text-uppercase d-inline text-dark" href="#">Face</a>
-                        <span style="cursor: pointer;" class="float-right pr-3 font-weight-bolder">+</span>
-                      </li>
-                      <li class="nav-item border-bottom py-3">
-                        <a class="nav-link text-uppercase d-inline text-dark" href="#">Personal Care</a>
-                        <span style="cursor: pointer;" class="float-right pr-3 font-weight-bolder">+</span>
-                      </li>
-                      <li class="nav-item border-bottom py-3">
-                        <a class="nav-link text-uppercase d-inline text-dark" href="#">Hair</a>
-                        <span style="cursor: pointer;" class="float-right pr-3 font-weight-bolder">+</span>
-                      </li>
-                      <li class="nav-item border-bottom py-3">
-                        <a class="nav-link text-uppercase d-inline text-dark" href="#">Fragrances</a>
-                        <span style="cursor: pointer;" class="float-right pr-3 font-weight-bolder">+</span>
-                      </li>
-                    </nav>
-                  </div>
-                  <div class="tab-pane fade" id="healthnav" role="tabpanel" aria-labelledby="healthnav-tab">
-                    <nav class="nav flex-column">
-                      <a class="nav-link text-uppercase text-dark border-bottom py-3" href="#">Nails</a>
-                      <a class="nav-link text-uppercase text-dark border-bottom py-3" href="#">Oral &amp; Dental Care</a>
-                      <a class="nav-link text-uppercase text-dark border-bottom py-3" href="#">Make-Up</a>
-                      <a class="nav-link text-uppercase text-dark border-bottom py-3" href="#">Aromatherapy</a>
-                      <a class="nav-link text-uppercase text-dark border-bottom py-3" href="#">Body</a>
-                    </nav>
-                  </div>
-                  <div class="tab-pane fade" id="brandnav" role="tabpanel" aria-labelledby="brandnav-tab">...C</div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-7">
-          <a href="javascript:void(0)" class="closebtn text-dark" onclick="closeNav()">×</a>
-          <small class="closebtn text-dark" onclick="closeNav()">Close</small>
-        </div>
-      </div>
-		</div>
+              <div class="col-md-8 right-v">
+                <div class="mbg" style="background-image: url(images/mbg.png);">
 
-
-		<div class="tab-content bg-light-main p-sm-2 p-5 mt-5 mb-5">
-		<!-- top products -->
-		<div class="container-fluid py-5">
-			<h1 class="text-body text-center font-secondary mb-5">ABOUT  <span class="font-weight-bold">US</span></h1>
-
-      <div class="row">
-                <div class="col-md-2 left-nav">
-                    
-                </div>
-                <div class="col-md-8 right-v">
-                    <p>  More Than Just A Pharmacy
-
-Medplus is Nigeria’s leading health and beauty retailer. With over 35 stores nationwide, our purpose is to help our customers live their lives to the fullest by looking and feeling good. Medplus limited was incorporated as the first ever retail pharmaceutical company in Nigeria on the 23rd of November 1993. </p>
-
- <p>
-Our Mission is:
-To provide a holistic approach to healthcare; caring for the mind, body and spirit and is committed to providing the best products, services and information possible. </p>
-
- <p>
-We do this through several initiatives:
-
-Know Your Numbers ( A store wide campaign that helps the Medplus community stay ahead of health issues by providing free health checks for Diabetes, Hypertension and Heart Disease).
-Community Outreaches – we visit communities where our stores are located and provide them with free consultations, checks and medication.
-Fit n Fab Club –community fitness events that feature dance, music and exercise. </p>
-
-Our Services include:
-
-  <ul>
-                  <li style="list-style-type: none;">
                   <ul>
-                  <li>Medicine Use Review</li>
-                  <li>Expert Counselling</li>
-                  <li>Prescription Management</li>
-                  <li>Free Health Screenings</li>
-                  <li>Chronic Disease Management</li>
-                  
+                    <li>AROMATHERAPY</li>
+                    <li>BODY</li>
+                    <li>NAILS</li>
+                    <li>ORAL & DENTAL CARE</li>
+                    <li>MAKE-UP</li>
+                    <li>FACE</li>
+                    <li>PERSONAL CARE</li>
+                    <li>HAIR</li>
+                    <li style="border-bottom: none;">FRAGRANCES</li>
                   </ul>
-                  </li>
-                  </ul> 
-
-
-
-
-
-    
-                 
-              </div>
-
-              <div class="col-md-2 right-v">
-                 
-              </div>
-          </div>
-
-   
-
-  
-		
-		</div>
-	</div>
-	
-
-
-	  <!-- footer section -->
-  <div class="container-fluid bg-dark px-0 py-4 mt-5">
-    <div class="container-xl small py-5 text-white">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-3 col order-sm-2 sm-text-center mb-sm-3">
-          <h5 class="text-uppercase small font-weight-bold">CONTACT US</h5>
-          <p>Head office: 45, Saka Tinubu Street,
-            Victoria Island, Lagos</p>
-          <p>Phone number: <a href="tel:+234700MEDPLUS" class="text-white"> 0700 MED PLUS</a></p>
-          <p><a href="mailto:Info@medplusng.com" class="text-white"> Info@medplusng.com</a></p>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-3 sm-text-center mb-sm-3">
-          <h5 class="text-uppercase small font-weight-bold">customer service</h5>
-          <ul class="list-unstyled">
-            <li class="nav-item">
-              <a href="#" class="nav-link pl-0 text-white">FAQ</a>
-            </li>
-            <li class="nav-item">
-              <a href="/customer_promise.html" class="nav-link pl-0 text-white">Our Customer Promise</a>
-            </li>
-            <li class="nav-item">
-              <a href="/returns.html" class="nav-link pl-0 text-white">Return &amp; Exchange</a>
-            </li>
-            <li class="nav-item">
-              <a href="/stores.html" class="nav-link pl-0 text-white">Store Locator</a>
-            </li>
-            <li class="nav-item">
-              <a href="/delivery.html" class="nav-link pl-0 text-white">Shipping Information</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link pl-0 text-white">Feedback</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-4 sm-text-center mb-sm-3">
-          <h5 class="text-uppercase small font-weight-bold">ABOUT US</h5>
-          <ul class="list-unstyled">
-            <li class="nav-item">
-              <a href="about.html" class="nav-link pl-0 text-white">Company Info</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link pl-0 text-white">Career</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link pl-0 text-white">Loyalty Scheme</a>
-            </li>
-            <li class="nav-item">
-              <a href="pharmacy.html" class="nav-link pl-0 text-white">Pharmacy Services</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-5 col mb-sm-5 order-sm-1 order-lg-12">
-          <div class="p-sm-3 py-sm-5 p-5 shadow-lg bg-dark mt--subscribe">
-            <h5 class="text-uppercase small font-weight-bold">SUBSCRIBE TO OUR UPDATE</h5>
-            <form class="form-inline py-3">
-              <div class="input-group mb-2 mr-sm-2">
-                <input type="text" class="form-control form-control-sm bg-transparent border-top-0 border-left-0 border-right-0 rounded-0 mr-3" id="footeremailaddress" placeholder="Email Address">
-                <div class="input-group-append">
-                  <button type="submit" class="btn btn-sm btn-outline-light rounded-0">SUBSCRIBE</button>
                 </div>
               </div>
-            </form>
+            </div>
+          </div>
+
+          <div class="logo">
+            <span onclick="openNav()">
+
+              <img src="images/icons/hum.png" width="40px" style="padding-top: 17px;float: left;"></span>
+              <a href="#" class=""><img src="images/logo.png"></a></div>
+              <form action="/search.html" class="search-wrapper cf">
+                <input type="text" placeholder="Search  |  All Product" required="">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+              <nav>
+                <ul class="right">
+                  <li class="nav-item text-center">
+                    <a href="tel:+234700MEDPLUS">
+                      <img src="images/icons/Contact_Icon.svg" height="20" class="d-inline-block align-top" alt="Call Us">
+                      <p class="nav-link text-uppercase" href="tel:+234700MEDPLUS">Call Us</p>
+                    </a>
+                  </li>
+                  <li class="nav-item text-center">
+                    <a href="/stores">
+                      <img src="images/icons/Store_Selector.svg" height="20" class="d-inline-block align-top" alt="Locate Us">
+                      <p class="nav-link text-uppercase">Locate Us</p>
+                    </a>
+                  </li>
+                  <li class="nav-item text-center">
+
+                    <a class="nav-link text-uppercase" href="/cart">
+                     <img src="images/icons/Cart_Icon.svg" height="20" class="d-inline-block align-top" alt="My Cart">
+                     <p class="nav-link">Cart</p>
+                   </a>
+                 </li>
+                 <li class="nav-item text-center">
+                  <a href="/my-account">
+                    <img src="images/icons/User.svg" height="20" class="d-inline-block align-top" alt="Medplus Logo">
+                    <p class="nav-link text-uppercase" href="/my-account">Sign In</p>
+                  </a>
+
+                </li>
+              </ul>
+            </nav>
+
+          </div>
+
+        </header>
+
+        <!-- You need this element to prevent the content of the page from jumping up -->
+        <div class="header-fixed-placeholder"></div>
+
+        <div class="container-fluid pd">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="text-body text-center font-secondary mb-5 t-w200" style="text-transform: uppercase;">CONTENT  <span class="font-weight-bold">PAGE</span></h1>
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-md-12">
+                <img src="images/about-bg.png" style="width: 100%;">
+              </div>
+              <div class="col-md-12 about-text">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+                <p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p>
+              </div>
+            </div>
+    </div>
+
+<div class="container-fluid pd"  style="background: #f1f1f1;">
+             <div class="row">
+              <div class="col-md-12">
+                <h1 class="text-body text-center font-secondary t-w200" style="text-transform: uppercase;">OUR MISSION  <span class="font-weight-bold">MISSION</span></h1>
+              </div>
+              <div class="col-md-12 about-text2">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                <p>when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+              </div>
+            </div>
+    </div>
+<div class="container-fluid pd">
+             <div class="row">
+              <div class="col-md-4 text-center scn">
+                <img src="images/icons/q1.png" width="150px" class="mb-2">
+                <h5 class="mb-3">QUALITY</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+              </div>
+              <div class="col-md-4 text-center scn">
+                <img src="images/icons/cm1.png" width="150px" class="mb-2">
+                <h5 class="mb-3">COMFORT</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+              </div>
+              <div class="col-md-4 text-center scn">
+                <img src="images/icons/e1.png" width="150px" class="mb-2">
+                <h5 class="mb-3">EXPERIENCE</h5>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type.</p>
+              </div>
+    </div>
+  </div>
+  <div class="container-fluid pd">
+             <div class="row">
+              <div class="col-md-12 text-center scn">
+                <img src="images/g1.png" width="100%" class="mb-2">
+              </div>
+              <div class="col-md-6 text-center scn">
+                <img src="images/g2.png" width="100%" class="mb-2">
+              </div>
+              <div class="col-md-6 text-center scn">
+               <p> <img src="images/g3.png" width="100%" class="mb-2"></p>
+                 <p> <img src="images/g4.png" width="100%" class="mb-2"></p>
+              </div>
+    </div>
+  </div>
+    <div class="container-fluid bg-dark px-0 py-4 mt-5">
+      <div class="container-xl small py-5 text-white">
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-3 col order-sm-2 sm-text-center mb-sm-3 p-t">
+            <h5 class="text-uppercase small font-weight-bold havy-t">CONTACT US</h5>
+            <p>Head office: 45, Saka Tinubu Street,
+            Victoria Island, Lagos</p>
+            <p>Phone number: <a href="tel:+234700MEDPLUS" class="text-white"> 0700 MED PLUS</a></p>
+            <p><a href="mailto:Info@medplusng.com" class="text-white"> Info@medplusng.com</a></p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-3 sm-text-center mb-sm-3 p-t">
+            <h5 class="text-uppercase small font-weight-bold havy-t">customer service</h5>
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">FAQ</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Our Customer Promise</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Return &amp; Exchange</a>
+              </li>
+              <li class="nav-item">
+                <a href="/stores" class="nav-link pl-0 text-white">Store Locator</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Shipping Information</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Feedback</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-4 sm-text-center mb-sm-3 p-t">
+            <h5 class="text-uppercase small font-weight-bold havy-t">ABOUT US</h5>
+            <ul class="list-unstyled">
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Company Info</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Career</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Loyalty Scheme</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link pl-0 text-white">Pharmacy Services</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-5 col mb-sm-5 order-sm-1 order-lg-12">
+            <div class="p-sm-3 py-sm-5 p-5 shadow-lg bg-dark mt--subscribe">
+              <h5 class="text-uppercase small font-weight-bold havy-t" style="    font-size: 14px;
+              letter-spacing: 2px;">SUBSCRIBE TO OUR UPDATE</h5>
+              <form class="form-inline py-3">
+                <div class="input-group mb-2 mr-sm-2 " style="width: 100% !important;">
+                  <input type="text" class="form-control form-control-sm bg-transparent border-top-0 border-left-0 border-right-0 rounded-0 mr-3" id="footeremailaddress" placeholder="Email Address" >
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-sm btn-outline-light rounded-0">SUBSCRIBE</button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row small">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 sm-text-center mb-sm-3">
-          <div class="social mb-2">
-            <p class="text-white sm-text-center text-left text-uppercase font-weight-bold">Engage with us.</p>
-            <ul class="nav sm-justify-content-center">
-              <li class="nav-item">
-                <a class="pr-3" target="_blank" href="https://facebook.com/MedplusPharmacy/">
-                  <img src="https://medplus.dmtca.work/themes/medplus/img/facebook-social.png" width="25">
-                </a>
+        <div class="row small">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 sm-text-center mb-sm-3">
+            <div class="social mb-2">
+              <p class="text-white sm-text-center text-left text-uppercase font-weight-bold havy-t">Engage with us.</p>
+              <ul class="nav sm-justify-content-center">
+                <li class="nav-item">
+                  <a class="pr-3" target="_blank" href="https://facebook.com/MedplusPharmacy/">
+                    <img src="/themes/medplus/img/facebook-social.png" width="25">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="pr-3" target="_blank" href="https://twitter.com/MedplusPharmacy/">
+                    <img src="/themes/medplus/img/twitter-social.png" width="25">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="pr-3" target="_blank" href="https://www.instagram.com/medpluspharmacyng/">
+                    <img src="/themes/medplus/img/instagram-social.png" width="25">
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 align-self-center p-t">
+            <ul class="nav sm-justify-content-center justify-content-end">
+              <li class="nav-item border-right">
+                <a href="#" class="nav-link text-white link-hover pt-0">Terms &amp; Condition</a>
+              </li>
+              <li class="nav-item border-right">
+                <a href="#" class="nav-link text-white link-hover pt-0">Privacy Policy</a>
               </li>
               <li class="nav-item">
-                <a class="pr-3" target="_blank" href="https://twitter.com/MedplusPharmacy/">
-                  <img src="https://medplus.dmtca.work/themes/medplus/img/twitter-social.png" width="25">
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="pr-3" target="_blank" href="https://www.instagram.com/medpluspharmacyng/">
-                  <img src="https://medplus.dmtca.work/themes/medplus/img/instagram-social.png" width="25">
-                </a>
+                <a href="#" class="nav-link text-white link-hover pt-0 pr-0">Site Map</a>
               </li>
             </ul>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 align-self-center">
-          <ul class="nav sm-justify-content-center justify-content-end">
-            <li class="nav-item border-right">
-              <a href="index.html" class="nav-link text-white link-hover pt-0">Terms &amp; Condition</a>
-            </li>
-            <li class="nav-item border-right">
-              <a href="privacy.html" class="nav-link text-white link-hover pt-0">Privacy Policy</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link text-white link-hover pt-0 pr-0">Site Map</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <hr class="bg-white my-3">
-      <div class="row small">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1">
-          <p class="text-white sm-text-center text-left mb-0">2020 Medplus. All right reserved.</p>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1">
-          <a href="http://dmtca.com" target="_blank">
-            <p class="text-white sm-text-center text-right link-hover mb-0">Powered By <span class="font-weight-bold">DMTCA</span></p>
-          </a>
+        <hr class="bg-white my-3">
+        <div class="row small">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
+            <p class="text-white sm-text-center text-left mb-0">2019 Medplus. All right reserved.</p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
+            <a href="http://dmtca.com" target="_blank">
+              <p class="text-white sm-text-center text-right link-hover mb-0">Powered By <span class="font-weight-bold">DMTCA</span></p>
+            </a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
    
-</body></html>
+    </body>
+
+    </html>
