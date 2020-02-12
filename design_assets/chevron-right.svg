@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 20" width="12" height="20">
+	<defs>
+		<image width="11" height="20" id="img1" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMSAyMCIgd2lkdGg9IjExIiBoZWlnaHQ9IjIwIj4KCTxkZWZzPgoJCTxjbGlwUGF0aCBjbGlwUGF0aFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgaWQ9ImNwMSI+CgkJCTxwYXRoIGQ9Ik0wIDBMMTEgMEwxMSAyMEwwIDIwWiIgLz4KCQk8L2NsaXBQYXRoPgoJPC9kZWZzPgoJPHN0eWxlPgoJCXRzcGFuIHsgd2hpdGUtc3BhY2U6cHJlIH0KCQkuc2hwMCB7IGZpbGw6ICMwMDAwMDAgfSAKCTwvc3R5bGU+Cgk8ZyBpZD0iUGFnZSAxIiBjbGlwLXBhdGg9InVybCgjY3AxKSI+CgkJPHBhdGggaWQ9IlBhdGggMSIgY2xhc3M9InNocDAiIGQ9Ik0wLjM2IDkuMUw5LjEgMC4zNkM5LjYxIC0wLjEyIDEwLjM5IC0wLjEyIDEwLjg3IDAuMzZDMTEuMzUgMC44NCAxMS4zNSAxLjYyIDEwLjg3IDIuMTNMMi45OSAxMEwxMC44NyAxNy44N0MxMS4zNSAxOC4zNSAxMS4zNSAxOS4xNiAxMC44NyAxOS42NEMxMC4zOSAyMC4xMiA5LjYxIDIwLjEyIDkuMSAxOS42NEwwLjM2IDEwLjg3Qy0wLjEyIDEwLjM5IC0wLjEyIDkuNjEgMC4zNiA5LjFaIiAvPgoJPC9nPgo8L3N2Zz4="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="TOP PRODUCTS">
+		<g id="Group 7">
+			<g id="Slider Right">
+				<use id="Vector Smart Object" href="#img1" transform="matrix(-1.069,0,0,1,12,0)"/>
+			</g>
+		</g>
+	</g>
+</svg>

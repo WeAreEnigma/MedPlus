@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 25" width="32" height="25">
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #333333 } 
+	</style>
+	<g id="Hero Banner">
+		<path id="Shape 2" class="shp0" d="M7 12.6L18.75 12.6L14.3 17L17.45 17L23 11.5L17.45 6L14.3 6L18.75 10.4L7 10.4L7 12.6Z" />
+	</g>
+</svg>

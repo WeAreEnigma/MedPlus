@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 29 16" width="29" height="16">
+	<defs>
+		<image width="29" height="16" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAQCAMAAADd04TjAAAAAXNSR0IB2cksfwAAAJxQTFRF/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc/2Cc86vpwwAAADR0Uk5TAAaVbIj//Wk63v5rKtxwKdlyHM14MDY1LVbqevr7hu38ijszWOt/GMh9JdZ3JnVviW0Im5jOv7kAAAB+SURBVHicddBHEsIwDEBRQfgQBKGT0EMPvd7/bniTFdJf2DN6G1si/1WqkTEtq1Fv+Bo30ZbP7QTt+NztQd/nwRBG4R6nmdFkOoO5SDitFkuFleS26jroRrJtbLTbH+Dovao4wdnDyxVuHt7Ddx8epgk83VW80LeL8vmWS/4B0k4JdzjlxyoAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<g id="Upload Prescription">
+		<g id="Group 15">
+			<g id="Presc">
+				<use id="Layer 6 copy" href="#img1" x="0" y="0" />
+			</g>
+		</g>
+	</g>
+</svg>
