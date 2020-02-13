@@ -21,88 +21,164 @@
 
     <header class="header-fixed">
 
-      <div class="header-limiter">
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="header-limiter">
+            <div id="mySidenav" class="sidenav web-nav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-          <div class="row">
-            <div class="col-md-4 left-nav">
-              <a href="">
-                <img src="images/logo-v.png" width="210px">
-              </a>
-              <a href="" class="all"> All products</a>
-              <a href="" class="btn-a">beauty</a>
-              <a href="" class="btn-a">health</a>
-              <a href="" class="btn-a">brand</a>
-              <hr class="line">
-              <a href="" class="btom">Lifestyle</a>
-              <a href="" class="btom">Store Locator</a>
-              <a href="" class="btom">Events</a>
-              <a href="" class="btom">Blog </a>
-              <a href="" class="btom">Contact Us </a>
-            </div>
-            <div class="col-md-8 right-v">
-              <div class="mbg" style="background-image: url(images/mbg.png);">
+              <div class="row">
+                <div class="col-3 col-md-4 left-nav">
+                    <a href="">
+                        <img src="images/logo-v.png" width="210px">
+                    </a>
+                    <a href="" class="all"> All products</a>
+                    <a href="" class="btn-a">beauty</a>
+                    <a href="" class="btn-a">health</a>
+                    <a href="" class="btn-a">brand</a>
+                    <hr class="line">
+                    <a href="" class="btom">Lifestyle</a>
+                    <a href="" class="btom">Store Locator</a>
+                    <a href="" class="btom">Events</a>
+                    <a href="" class="btom">Blog </a>
+                    <a href="" class="btom">Contact Us </a>
+                </div>
+                <div class="col-5 col-md-8 right-v">
+                  <div class="mbg" style="background-image: url(images/mbg.png);">
 
-                <ul>
-                  <li>AROMATHERAPY</li>
-                  <li>BODY</li>
-                  <li>NAILS</li>
-                  <li>ORAL & DENTAL CARE</li>
-                  <li>MAKE-UP</li>
-                  <li>FACE</li>
-                  <li>PERSONAL CARE</li>
-                  <li>HAIR</li>
-                  <li style="border-bottom: none;">FRAGRANCES</li>
-                </ul>
+                      <ul class="targetDiv">
+                          <li>AROMATHERAPY</li>
+                          <li>BODY</li>
+                          <li>NAILS</li>
+                          <li>ORAL & DENTAL CARE</li>
+                          <li>MAKE-UP</li>
+                          <li>FACE</li>
+                          <li>PERSONAL CARE</li>
+                          <li class="showSingle" target="1">HAIR</li>
+                          <li style="border-bottom: none;">FRAGRANCES</li>
+                      </ul>
+                       <ul id="div1" class="hide">
+                        <h1>HAIR</h1>
+                          <li>AROMATHERAPY</li>
+                          <li class="showSingle" target="1">FRAGRANCES</li>
+                      </ul>
+                  </div>
               </div>
-            </div>
           </div>
-        </div>
+      </div>
+      <!-- Mobile -->
+             <div id="mySidenav2" class="sidenav mobile-nav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-        <div class="logo">
-          <span onclick="openNav()">
+              <div class="row">
+                <div class="col-12 col-md-12 left-nav">
+                    <a href="" class="logom">
+                        <img src="images/logo-v.png" >
+                    </a>
+                    <a href="" class="all"> All products</a>
+                    <a class="btn-a" id="show">beauty</a>
+                    <a href="" class="btn-a">health</a>
+                    <a href="" class="btn-a">brand</a>
+                    <hr class="line">
+                    <a href="" class="btom">Lifestyle</a>
+                    <a href="" class="btom">Store Locator</a>
+                    <a href="" class="btom">Events</a>
+                    <a href="" class="btom">Blog </a>
+                    <a href="" class="btom">Contact Us </a>
+                </div>
+                <div class="col-12 col-md-8 right-v" >
+                  <div class="mbg" style=" display: none;">
+<a href="" class="back">
+  <img src="images/icons/back.png"> BACK
+</a>
 
-            <img src="images/icons/hum.png" width="40px" style="padding-top: 17px;float: left;"></span>
-            <a href="#" class=""><img src="images/logo.png"></a></div>
-            <form action="/search.html" class="search-wrapper cf">
-              <input type="text" placeholder="Search  |  All Product" required="">
-              <button type="submit"><i class="fa fa-search"></i></button>
-            </form>
-            <nav>
-              <ul class="right">
-                <li class="nav-item text-center">
-                  <a href="tel:+234700MEDPLUS">
-                    <img src="images/icons/Contact_Icon.svg" height="20" class="d-inline-block align-top" alt="Call Us">
-                    <p class="nav-link text-uppercase" href="tel:+234700MEDPLUS">Call Us</p>
-                  </a>
-                </li>
-                <li class="nav-item text-center">
-                  <a href="/stores">
-                    <img src="images/icons/Store_Selector.svg" height="20" class="d-inline-block align-top" alt="Locate Us">
-                    <p class="nav-link text-uppercase">Locate Us</p>
-                  </a>
-                </li>
-                <li class="nav-item text-center">
+                      <ul class="targetDiv">
+                        <h3 class="hh">Beauty</h3>
+                          <li>AROMATHERAPY</li>
+                          <li>BODY</li>
+                          <li>NAILS</li>
+                          <li>ORAL & DENTAL CARE</li>
+                          <li>MAKE-UP</li>
+                          <li>FACE</li>
+                          <li>PERSONAL CARE</li>
+                          <li class="showSingle" target="2">HAIR</li>
+                          <li style="border-bottom: none;">FRAGRANCES</li>
+                      </ul>
+                       <ul id="div2" class="hide">
+                        <h3 class="hh">HAIR</h3>
+                          <li>AROMATHERAPY</li>
+                          <li class="showSingle" target="1">FRAGRANCES</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
 
-                  <a class="nav-link text-uppercase" href="/cart">
-                   <img src="images/icons/Cart_Icon.svg" height="20" class="d-inline-block align-top" alt="My Cart">
-                   <p class="nav-link">Cart</p>
-                 </a>
+      <div class="logo">
+        <span onclick="openNav()">
+
+            <img src="images/icons/hum.png" class="log" width="40px" style=""></span>
+            <a href="#" class=""><img src="images/logo.png" class="algn"></a></div>
+            <nav class="nav-m">
+               <label class="dropdown">
+
+  <div class="dd-button">
+    Dropdown
+  </div>
+
+  <input type="checkbox" class="dd-input" id="test">
+
+  <ul class="dd-menu">
+    <li>Action</li>
+    <li>Another action</li>
+    <li>Something else here</li>
+    <li>
+      <a href="http://rane.io">Link to Rane.io</a>
+    </li>
+  </ul>
+  
+</label>
+  <a class="nav-link text-uppercase" href="#popup1" style="color: #000;">
+                       <img src="images/icons/Cart_Icon.svg" height="20" class="d-inline-block align-top" alt="My Cart"><br>
+                       
+                   </a>
+</nav>
+<form action="/search.html" class="search-wrapper cf">
+        <input type="text" placeholder="Search  |  All Product" required="">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+            <nav class="des">
+                <ul class="right">
+                    <li class="nav-item text-center">
+                      <a href="tel:+234700MEDPLUS">
+                          <img src="images/icons/Contact_Icon.svg" height="20" class="d-inline-block align-top" alt="Call Us">
+                          <p class="nav-link text-uppercase" href="tel:+234700MEDPLUS">Call Us</p>
+                      </a>
+                  </li>
+                  <li class="nav-item text-center">
+                      <a href="/stores">
+                          <img src="images/icons/Store_Selector.svg" height="20" class="d-inline-block align-top" alt="Locate Us">
+                          <p class="nav-link text-uppercase">Locate Us</p>
+                      </a>
+                  </li>
+                  <li class="nav-item text-center">
+
+                      <a class="nav-link text-uppercase" href="#popup1">
+                       <img src="images/icons/Cart_Icon.svg" height="20" class="d-inline-block align-top" alt="My Cart">
+                       <p class="nav-link">Cart</p>
+                   </a>
                </li>
                <li class="nav-item text-center">
-                <a href="/my-account">
-                  <img src="images/icons/User.svg" height="20" class="d-inline-block align-top" alt="Medplus Logo">
-                  <p class="nav-link text-uppercase" href="/my-account">Sign In</p>
-                </a>
+                  <a href="/my-account">
+                      <img src="images/icons/User.svg" height="20" class="d-inline-block align-top" alt="Medplus Logo">
+                      <p class="nav-link text-uppercase" href="/my-account">Sign In</p>
+                  </a>
 
               </li>
-            </ul>
-          </nav>
+          </ul>
+      </nav>
 
-        </div>
+  </div>
 
-      </header>
+</header>
 
       <!-- You need this element to prevent the content of the page from jumping up -->
       <div class="header-fixed-placeholder"></div>
@@ -133,8 +209,8 @@
                 <div class="section section-gray">
                   <div class="section-content">
                     <div class="row product-details">
-                      <div class="col-md-1">
-                        <ul class="product-images thum-images">
+                      <div class="col-12 col-md-1 order-md-1 order-2">
+                        <ul class="product-images thum-images mobile-thum">
 
                           <li>
                             <a href="javascript:void(0)"><img src="images/thum1.png" alt=""></a>
@@ -147,14 +223,14 @@
                           </li>
                         </ul>
                       </div>
-                      <div class="col-md-5">
+                      <div class="col-12 col-md-5 order-1">
                         <ul class="product-images">
                           <li class="preview"><img src="images/pro.png" alt=""></li>
                           <!-- Don't show small pictures if there's only 1 -->
 
                         </ul>
                       </div>
-                      <div class="col-md-6">
+                      <div class="col-md-6 order-3">
                         <ul class="product-info">
                           <li class="product-name">212 MEN NYC PERFUME</li>
                           <li class="product-sub">100ML</li>
@@ -164,19 +240,19 @@
                           </li>
                         </ul>
                         <div class="row">
-                          <div class="col-md-3">
+                          <div class="col-3 col-md-3">
                             <div class="quantity buttons_added">
                               <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
                             </div>
                           </div>
-                          <div class="col-md-9 product-addtocart">
+                          <div class="col-9 col-md-9 product-addtocart">
                             <button>Add To Cart</button>
                           </div>
-                          <div class="col-md-4">
+                          <div class="col-4 col-md-4">
                             <!-- variation one -->
                             <div class="var1">
                               <!-- desktop -->
-                              <a class="button one inactive desktop button--secondary button--full-width">
+                              <a class="button one inactive desktop button--secondary button--full-width mb-bt">
 
                                 <div class="icon-with-text">
                                   <div class="icon-with-text__icon">
@@ -206,11 +282,11 @@
   </div>
 
   </div>
-  <div class="col-md-6 stock">
+  <div class="col-3 col-md-6 stock">
     <img src="images/icons/stock.png">
     <span>In Stock</span>
   </div>
-  <div class="col-sm-12 rate">
+  <div class="col-5 col-sm-12 rate">
     <div class="star-rating">
     <input type="radio" id="5-stars" name="rating" value="5" />
     <label for="5-stars" class="star">&#9733;</label>
@@ -224,7 +300,7 @@
     <label for="1-star" class="star">&#9733;</label>
   </div>
   </div>
-<div class="col-sm-12 buyb">
+<div class="col-md-12 buyb">
   <a href="" class="by-now">
     BUY NOW
   </a>
@@ -241,7 +317,7 @@
   </div>
   </div>
 
-  <div class="container-fluid align-content-center mx-3">
+  <div class="container-fluid align-content-center m-s">
     <ul class="list-unstyled container-fluid w-100 d-flex bdr">
       <li class="text-center border-right small  pd1">
         <img src="images/icons/1p.svg" height="40" class="d-inline-block align-top mb-2" alt="Call Us">
@@ -271,7 +347,7 @@
       <li class="active"><a href="#Commentary" data-toggle="tab">DESCRIPTION</a></li>
       <li><a href="#Videos" data-toggle="tab">REVIEWS (0)</a></li>
     </ul>
-    <div class="tab-content">
+    <div class="tab-content text-j">
       <div role="tabpanel" class="tab-pane fade in active" id="Commentary" >
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
 
@@ -287,9 +363,9 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <h1 class="text-body text-center font-secondary mb-5 t-w200"> RELATED <span class="font-weight-bold">PRODUCTS</span></h1>
+        <h1 class="text-body text-center font-secondary mb-5 t-w200 real-t"> RELATED <span class="font-weight-bold">PRODUCTS</span></h1>
       </div>
-      <div class="col-12 col-sm-8 col-md-6 col-lg-4 products-card">
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 products-card p-card">
         <div class="card">
           <img class="card-img" src="images/1.png" alt="Vans">
           <div class="card-img-overlay d-flex justify-content-end">
@@ -302,12 +378,12 @@
           <h4 class="card-title">212 Men NYC <span>₦ 23,650.00</span></h4>
           <h6 class="card-subtitle mb-2 text-muted">Perfume 100ML</h6>
 
-          <p style="text-align: center;">
+          <p style="text-align: center;     margin-top: 40px;">
             <a href="" class="pbtn">Buy Now</a> 
           </p> 
         </div>
       </div>
-      <div class="col-12 col-sm-8 col-md-6 col-lg-4 products-card">
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 products-card p-card">
         <div class="card">
           <img class="card-img" src="images/2.png" alt="Vans">
           <div class="card-img-overlay d-flex justify-content-end">
@@ -320,12 +396,12 @@
           <h4 class="card-title">212 Men NYC <span>₦ 23,650.00</span></h4>
           <h6 class="card-subtitle mb-2 text-muted">Perfume 100ML</h6>
 
-          <p style="text-align: center;">
+          <p style="text-align: center;     margin-top: 40px;">
             <a href="" class="pbtn">Buy Now</a> 
           </p>
         </div>
       </div>
-      <div class="col-12 col-sm-8 col-md-6 col-lg-4 products-card">
+      <div class="col-12 col-sm-8 col-md-6 col-lg-4 products-card p-card">
         <div class="card">
           <img class="card-img" src="images/3.png" alt="Vans">
           <div class="card-img-overlay d-flex justify-content-end">
@@ -338,7 +414,7 @@
           <h4 class="card-title">212 Men NYC <span>₦ 23,650.00</span></h4>
           <h6 class="card-subtitle mb-2 text-muted">Perfume 100ML</h6>
           
-          <p style="text-align: center;">
+          <p style="text-align: center;     margin-top: 40px;">
             <a href="" class="pbtn">Buy Now</a> 
           </p>
         </div>
@@ -347,16 +423,16 @@
   </div>
 
   <div class="container-fluid bg-dark px-0 py-4 mt-5">
-    <div class="container-xl small py-5 text-white">
+    <div class="container-xl small text-white">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-3 col order-sm-2 sm-text-center mb-sm-3 p-t">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-3 col order-sm-2 sm-text-center mb-sm-3 p-t mbb m-m-t m-m-b">
           <h5 class="text-uppercase small font-weight-bold havy-t">CONTACT US</h5>
           <p>Head office: 45, Saka Tinubu Street,
-          Victoria Island, Lagos</p>
+            Victoria Island, Lagos</p>
           <p>Phone number: <a href="tel:+234700MEDPLUS" class="text-white"> 0700 MED PLUS</a></p>
           <p><a href="mailto:Info@medplusng.com" class="text-white"> Info@medplusng.com</a></p>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-3 sm-text-center mb-sm-3 p-t">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-3 sm-text-center mb-sm-3 p-t mbb m-m-b">
           <h5 class="text-uppercase small font-weight-bold havy-t">customer service</h5>
           <ul class="list-unstyled">
             <li class="nav-item">
@@ -379,7 +455,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-4 sm-text-center mb-sm-3 p-t">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-4 sm-text-center mb-sm-3 p-t mbb m-m-b">
           <h5 class="text-uppercase small font-weight-bold havy-t">ABOUT US</h5>
           <ul class="list-unstyled">
             <li class="nav-item">
@@ -399,7 +475,7 @@
         <div class="col-12 col-sm-12 col-md-5 col-lg-5 col-xl-5 col-5 col mb-sm-5 order-sm-1 order-lg-12">
           <div class="p-sm-3 py-sm-5 p-5 shadow-lg bg-dark mt--subscribe">
             <h5 class="text-uppercase small font-weight-bold havy-t" style="    font-size: 14px;
-            letter-spacing: 2px;">SUBSCRIBE TO OUR UPDATE</h5>
+    letter-spacing: 2px;">SUBSCRIBE TO OUR UPDATE</h5>
             <form class="form-inline py-3">
               <div class="input-group mb-2 mr-sm-2 " style="width: 100% !important;">
                 <input type="text" class="form-control form-control-sm bg-transparent border-top-0 border-left-0 border-right-0 rounded-0 mr-3" id="footeremailaddress" placeholder="Email Address" >
@@ -412,30 +488,22 @@
         </div>
       </div>
       <div class="row small">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 sm-text-center mb-sm-3">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 sm-text-center mb-sm-3 mbb m-m-b">
           <div class="social mb-2">
             <p class="text-white sm-text-center text-left text-uppercase font-weight-bold havy-t">Engage with us.</p>
-            <ul class="nav sm-justify-content-center">
-              <li class="nav-item">
-                <a class="pr-3" target="_blank" href="https://facebook.com/MedplusPharmacy/">
-                  <img src="/themes/medplus/img/facebook-social.png" width="25">
+            <a class="pr-3" target="_blank" href="https://facebook.com/MedplusPharmacy/">
+                  <img src="images/icons/facebook-social.png" width="25">
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="pr-3" target="_blank" href="https://twitter.com/MedplusPharmacy/">
-                  <img src="/themes/medplus/img/twitter-social.png" width="25">
+                 <a class="pr-3" target="_blank" href="https://twitter.com/MedplusPharmacy/">
+                  <img src="images/icons/twitter-social.png" width="25">
                 </a>
-              </li>
-              <li class="nav-item">
                 <a class="pr-3" target="_blank" href="https://www.instagram.com/medpluspharmacyng/">
-                  <img src="/themes/medplus/img/instagram-social.png" width="25">
+                  <img src="images/icons/instagram-social.png" width="25">
                 </a>
-              </li>
-            </ul>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 align-self-center p-t">
-          <ul class="nav sm-justify-content-center justify-content-end">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 align-self-center p-t mbb m-m-b">
+          <ul class="nav sm-justify-content-center right-flott">
             <li class="nav-item border-right">
               <a href="#" class="nav-link text-white link-hover pt-0">Terms &amp; Condition</a>
             </li>
@@ -448,17 +516,18 @@
           </ul>
         </div>
       </div>
-      <hr class="bg-white my-3">
+      <hr class="bg-white my-3" style="margin-top: 0 !important;">
       <div class="row small">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
-          <p class="text-white sm-text-center text-left mb-0">2019 Medplus. All right reserved.</p>
+          <p class="text-white sm-text-center mb-0 m-t ">2019 Medplus. All right reserved.</p>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
           <a href="http://dmtca.com" target="_blank">
-            <p class="text-white sm-text-center text-right link-hover mb-0">Powered By <span class="font-weight-bold">DMTCA</span></p>
+            <p class="text-white sm-text-center link-hover mb-0 m-t wb">Powered By <span class="font-weight-bold">DMTCA</span></p>
           </a>
         </div>
       </div>
+
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
