@@ -7,7 +7,7 @@
 
         // Show the fixed header only on larger screen devices
 
-        if(win.width() > 400){
+        if(win.width() > 100){
 
             // When we scroll more than 150px down, we set the
             // "fixed" class on the body element.
@@ -29,11 +29,13 @@
 /* Set the width of the side navigation to 250px */
 function openNav() {
     document.getElementById("mySidenav").style.width = "800px";
+     document.getElementById("mySidenav2").style.width = "100%";
 }
 
 /* Set the width of the side navigation to 0 */
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("mySidenav2").style.width = "0";
 }
 
 
@@ -101,9 +103,24 @@ jQuery(function(){
         });
 });
 
+$(document).ready(function(){
+  $("#shows").click(function(){
+    $(".tab-filets").show();
+  });
+  $("#hides").click(function(){
+    $(".tab-filets").hide();
+  });
+  $("#show").click(function(){
+    $(".mbg").show();
+    $(".left-nav").hide();
+  });
+});
 
-
-
+$(document).ready(function(){
+  $("#sorts").click(function(){
+    $(".select-sort").toggle();
+  });
+});
 
 // Ion.RangeSlider
 
@@ -2569,3 +2586,6 @@ String.prototype.getDecimals || (String.prototype.getDecimals = function() {
 
 
 // login//
+
+
+
