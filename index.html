@@ -10,6 +10,7 @@
     <title></title>
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css"  href="css/responsive.css">
     <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -22,11 +23,11 @@
     <header class="header-fixed">
 
         <div class="header-limiter">
-            <div id="mySidenav" class="sidenav">
+            <div id="mySidenav" class="sidenav web-nav">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
               <div class="row">
-                <div class="col-md-4 left-nav">
+                <div class="col-3 col-md-4 left-nav">
                     <a href="">
                         <img src="images/logo-v.png" width="210px">
                     </a>
@@ -41,7 +42,7 @@
                     <a href="" class="btom">Blog </a>
                     <a href="" class="btom">Contact Us </a>
                 </div>
-                <div class="col-md-8 right-v">
+                <div class="col-5 col-md-8 right-v">
                   <div class="mbg" style="background-image: url(images/mbg.png);">
 
                       <ul class="targetDiv">
@@ -64,17 +65,88 @@
               </div>
           </div>
       </div>
+      <!-- Mobile -->
+             <div id="mySidenav2" class="sidenav mobile-nav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+              <div class="row">
+                <div class="col-12 col-md-12 left-nav">
+                    <a href="" class="logom">
+                        <img src="images/logo-v.png" >
+                    </a>
+                    <a href="" class="all"> All products</a>
+                    <a class="btn-a" id="show">beauty</a>
+                    <a href="" class="btn-a">health</a>
+                    <a href="" class="btn-a">brand</a>
+                    <hr class="line">
+                    <a href="" class="btom">Lifestyle</a>
+                    <a href="" class="btom">Store Locator</a>
+                    <a href="" class="btom">Events</a>
+                    <a href="" class="btom">Blog </a>
+                    <a href="" class="btom">Contact Us </a>
+                </div>
+                <div class="col-12 col-md-8 right-v" >
+                  <div class="mbg" style=" display: none;">
+<a href="" class="back">
+  <img src="images/icons/back.png"> BACK
+</a>
+
+                      <ul class="targetDiv">
+                        <h3 class="hh">Beauty</h3>
+                          <li>AROMATHERAPY</li>
+                          <li>BODY</li>
+                          <li>NAILS</li>
+                          <li>ORAL & DENTAL CARE</li>
+                          <li>MAKE-UP</li>
+                          <li>FACE</li>
+                          <li>PERSONAL CARE</li>
+                          <li class="showSingle" target="2">HAIR</li>
+                          <li style="border-bottom: none;">FRAGRANCES</li>
+                      </ul>
+                       <ul id="div2" class="hide">
+                        <h3 class="hh">HAIR</h3>
+                          <li>AROMATHERAPY</li>
+                          <li class="showSingle" target="1">FRAGRANCES</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
 
       <div class="logo">
         <span onclick="openNav()">
 
             <img src="images/icons/hum.png" class="log" width="40px" style=""></span>
             <a href="#" class=""><img src="images/logo.png" class="algn"></a></div>
+            <nav class="nav-m">
+               <label class="dropdown">
+
+  <div class="dd-button">
+    Dropdown
+  </div>
+
+  <input type="checkbox" class="dd-input" id="test">
+
+  <ul class="dd-menu">
+    <li>Action</li>
+    <li>Another action</li>
+    <li>Something else here</li>
+    <li>
+      <a href="http://rane.io">Link to Rane.io</a>
+    </li>
+  </ul>
+  
+</label>
+  <a class="nav-link text-uppercase" href="#popup1" style="color: #000;">
+                       <img src="images/icons/Cart_Icon.svg" height="20" class="d-inline-block align-top" alt="My Cart"><br>
+                       
+                   </a>
+</nav>
 <form action="/search.html" class="search-wrapper cf">
         <input type="text" placeholder="Search  |  All Product" required="">
         <button type="submit"><i class="fa fa-search"></i></button>
     </form>
-            <nav>
+            <nav class="des">
                 <ul class="right">
                     <li class="nav-item text-center">
                       <a href="tel:+234700MEDPLUS">
@@ -114,31 +186,55 @@
 
 <!-- The content of your page would go here. -->
 <div class="bxslider">
-  <div><img src="images/case-single04.jpg"></div>
-  <div><img src="images/case-single04.jpg"></div>
-  <div><img src="images/case-single04.jpg"></div>
+  <div class="slides" style=" background-image: url('images/slide1.png');">
+    <div class="row">
+      <div class="col-lg-5">
+         <h1 class="text-body text-left font-secondary t-w200">Get THAT <br> <span class="font-weight-bold">Heart Throbbing
+</span>Look</h1>
+<a href="">Shop Beauty Products</a>
+      </div>
+    </div>
+  </div>
+  <div class="slides" style=" background-image: url('images/slide2.jpg');">
+     <div class="row">
+      <div class="col-lg-5">
+         <h1 class="text-body text-left font-secondary t-w200">Get THAT <br> <span class="font-weight-bold">Heart Throbbing
+</span>Look</h1>
+<a href="">Shop Beauty Products</a>
+      </div>
+    </div>
+  </div>
+  <div class="slides" style=" background-image: url('images/slide1.png');">
+     <div class="row">
+      <div class="col-lg-5">
+         <h1 class="text-body text-left font-secondary t-w200">Get THAT <br> <span class="font-weight-bold">Heart Throbbing
+</span>Look</h1>
+<a href="">Shop Beauty Products</a>
+      </div>
+    </div>
+  </div>
 </div>
 <div class="svg-wave">
     <div class="container-fluid align-content-center mx-3">
-        <ul class="list-unstyled container-fluid w-75 d-flex p-2">
+        <ul class="list-unstyled container-fluid w-75 w-z100 d-flex p-2">
             <li class="text-center border-right small px-3">
-                <img src="images/icons/1p.svg" height="40" class="d-inline-block align-top mb-2" alt="Call Us">
+                <img src="images/icons/1p.svg" class="d-inline-block align-top mb-2 mbl" alt="Call Us">
                 <span class="nav-link text-capitalize">Quality <br> Products</span>
             </li>
             <li class="text-center border-right small px-3">
-                <img src="images/icons/2p.svg" height="40" class="d-inline-block align-top mb-2" alt="Locate Us">
+                <img src="images/icons/2p.svg" class="d-inline-block align-top mb-2 mbl" alt="Locate Us">
                 <span class="nav-link text-capitalize">Secure <br> Payments</span>
             </li>
             <li class="text-center border-right small px-3">
-                <img src="images/icons/3p.svg" height="40" class="d-inline-block align-top mb-2" alt="My Cart">
+                <img src="images/icons/3p.svg" class="d-inline-block align-top mb-2 mbl" alt="My Cart">
                 <span class="nav-link text-capitalize">Express <br> Delivery</span>
             </li>
             <li class="text-center border-right small px-3">
-                <img src="images/icons/4p.svg" height="40" class="d-inline-block align-top mb-2" alt="Medplus Logo">
+                <img src="images/icons/4p.svg" class="d-inline-block align-top mb-2 mbl" alt="Medplus Logo">
                 <span class="nav-link text-capitalize">Free <br> Pickup</span>
             </li>
             <li class="text-center small px-3">
-                <img src="images/icons/5p.svg" height="40" class="d-inline-block align-top mb-2" alt="Medplus Logo">
+                <img src="images/icons/5p.svg" class="d-inline-block align-top mb-2 mbl" alt="Medplus Logo">
                 <span class="nav-link text-capitalize">Easy <br> Return</span>
             </li>
 
@@ -265,7 +361,7 @@
 </div>
 
 </section>
-<section style="background: #ececec; margin: 10% 0px;">
+<section class="m-over" style="background: #ececec; margin: 10% 0px;">
     <div class="row middle" style="background-image: url('images/s-bg.png');">
         <div class="col-lg-12 textm" style="text-align: left;">
             <h3>₦ 1,000</h3>
@@ -376,7 +472,7 @@
 <!-- upload -->
 <div class="row uploasd" >
     <div class="col-lg-5 leftup">
-        <h1 class="text-body text-left font-secondary mb-5 t-w200">UPLOAD  <span class="font-weight-bold">PRESCRIPTION</span></h1>
+        <h1 class="text-body font-secondary mb-5 t-w200 m-up">UPLOAD  <span class="font-weight-bold">PRESCRIPTION</span></h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard</p>
         <input type="text" name="" placeholder="Enter your email">
         <span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
@@ -471,39 +567,39 @@
 
 
 <div class="container-fluid bg-dark px-0 py-4 mt-5">
-    <div class="container-xl small py-5 text-white">
+    <div class="container-xl small text-white">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-3 col order-sm-2 sm-text-center mb-sm-3 p-t">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-3 col order-sm-2 sm-text-center mb-sm-3 p-t mbb m-m-t m-m-b">
           <h5 class="text-uppercase small font-weight-bold havy-t">CONTACT US</h5>
           <p>Head office: 45, Saka Tinubu Street,
             Victoria Island, Lagos</p>
           <p>Phone number: <a href="tel:+234700MEDPLUS" class="text-white"> 0700 MED PLUS</a></p>
           <p><a href="mailto:Info@medplusng.com" class="text-white"> Info@medplusng.com</a></p>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-3 sm-text-center mb-sm-3 p-t">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-3 sm-text-center mb-sm-3 p-t mbb m-m-b">
           <h5 class="text-uppercase small font-weight-bold havy-t">customer service</h5>
           <ul class="list-unstyled">
             <li class="nav-item">
               <a href="#" class="nav-link pl-0 text-white">FAQ</a>
             </li>
             <li class="nav-item">
-              <a href="/customer_promise.html" class="nav-link pl-0 text-white">Our Customer Promise</a>
+              <a href="#" class="nav-link pl-0 text-white">Our Customer Promise</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link pl-0 text-white">Return &amp; Exchange</a>
             </li>
             <li class="nav-item">
-              <a href="/stores.html" class="nav-link pl-0 text-white">Store Locator</a>
+              <a href="/stores" class="nav-link pl-0 text-white">Store Locator</a>
             </li>
             <li class="nav-item">
-              <a href="/delivery.html" class="nav-link pl-0 text-white">Shipping Information</a>
+              <a href="#" class="nav-link pl-0 text-white">Shipping Information</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link pl-0 text-white">Feedback</a>
             </li>
           </ul>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-4 sm-text-center mb-sm-3 p-t">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-4 sm-text-center mb-sm-3 p-t mbb m-m-b">
           <h5 class="text-uppercase small font-weight-bold havy-t">ABOUT US</h5>
           <ul class="list-unstyled">
             <li class="nav-item">
@@ -536,30 +632,22 @@
         </div>
       </div>
       <div class="row small">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 sm-text-center mb-sm-3">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 sm-text-center mb-sm-3 mbb m-m-b">
           <div class="social mb-2">
             <p class="text-white sm-text-center text-left text-uppercase font-weight-bold havy-t">Engage with us.</p>
-            <ul class="nav sm-justify-content-center">
-              <li class="nav-item">
-                <a class="pr-3" target="_blank" href="https://facebook.com/MedplusPharmacy/">
+            <a class="pr-3" target="_blank" href="https://facebook.com/MedplusPharmacy/">
                   <img src="images/icons/facebook-social.png" width="25">
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="pr-3" target="_blank" href="https://twitter.com/MedplusPharmacy/">
+                 <a class="pr-3" target="_blank" href="https://twitter.com/MedplusPharmacy/">
                   <img src="images/icons/twitter-social.png" width="25">
                 </a>
-              </li>
-              <li class="nav-item">
                 <a class="pr-3" target="_blank" href="https://www.instagram.com/medpluspharmacyng/">
                   <img src="images/icons/instagram-social.png" width="25">
                 </a>
-              </li>
-            </ul>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 align-self-center p-t">
-          <ul class="nav sm-justify-content-center justify-content-end">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 align-self-center p-t mbb m-m-b">
+          <ul class="nav sm-justify-content-center right-flott">
             <li class="nav-item border-right">
               <a href="#" class="nav-link text-white link-hover pt-0">Terms &amp; Condition</a>
             </li>
@@ -575,25 +663,17 @@
       <hr class="bg-white my-3" style="margin-top: 0 !important;">
       <div class="row small">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
-          <p class="text-white sm-text-center text-left mb-0">2019 Medplus. All right reserved.</p>
+          <p class="text-white sm-text-center mb-0 m-t ">2019 Medplus. All right reserved.</p>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
           <a href="http://dmtca.com" target="_blank">
-            <p class="text-white sm-text-center text-right link-hover mb-0">Powered By <span class="font-weight-bold">DMTCA</span></p>
+            <p class="text-white sm-text-center link-hover mb-0 m-t wb">Powered By <span class="font-weight-bold">DMTCA</span></p>
           </a>
         </div>
       </div>
+
     </div>
   </div>
-  <div id="popup1" class="overlay">
-    <div class="popup">
-        <h2>Here i am</h2>
-        <a class="close" href="#">&times;</a>
-        <div class="content">
-            Thank to pop me out of that button, but now i'm done so you can close this window.
-        </div>
-    </div>
-</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script src="js/main.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js"></script>

@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Basic Header</title>
+    <title>Medplus</title>
 
     <link rel="stylesheet" href="css/style.css">
     <link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
@@ -19,14 +19,14 @@
 
 <body>
 
-    <header class="header-fixed">
+  <header class="header-fixed">
 
         <div class="header-limiter">
-            <div id="mySidenav" class="sidenav">
+            <div id="mySidenav" class="sidenav web-nav">
               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
               <div class="row">
-                <div class="col-md-4 left-nav">
+                <div class="col-3 col-md-4 left-nav">
                     <a href="">
                         <img src="images/logo-v.png" width="210px">
                     </a>
@@ -41,10 +41,10 @@
                     <a href="" class="btom">Blog </a>
                     <a href="" class="btom">Contact Us </a>
                 </div>
-                <div class="col-md-8 right-v">
+                <div class="col-5 col-md-8 right-v">
                   <div class="mbg" style="background-image: url(images/mbg.png);">
 
-                      <ul>
+                      <ul class="targetDiv">
                           <li>AROMATHERAPY</li>
                           <li>BODY</li>
                           <li>NAILS</li>
@@ -52,8 +52,60 @@
                           <li>MAKE-UP</li>
                           <li>FACE</li>
                           <li>PERSONAL CARE</li>
-                          <li>HAIR</li>
+                          <li class="showSingle" target="1">HAIR</li>
                           <li style="border-bottom: none;">FRAGRANCES</li>
+                      </ul>
+                       <ul id="div1" class="hide">
+                        <h1>HAIR</h1>
+                          <li>AROMATHERAPY</li>
+                          <li class="showSingle" target="1">FRAGRANCES</li>
+                      </ul>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- Mobile -->
+             <div id="mySidenav2" class="sidenav mobile-nav">
+              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+              <div class="row">
+                <div class="col-12 col-md-12 left-nav">
+                    <a href="" class="logom">
+                        <img src="images/logo-v.png" >
+                    </a>
+                    <a href="" class="all"> All products</a>
+                    <a class="btn-a" id="show">beauty</a>
+                    <a href="" class="btn-a">health</a>
+                    <a href="" class="btn-a">brand</a>
+                    <hr class="line">
+                    <a href="" class="btom">Lifestyle</a>
+                    <a href="" class="btom">Store Locator</a>
+                    <a href="" class="btom">Events</a>
+                    <a href="" class="btom">Blog </a>
+                    <a href="" class="btom">Contact Us </a>
+                </div>
+                <div class="col-12 col-md-8 right-v" >
+                  <div class="mbg" style=" display: none;">
+<a href="" class="back">
+  <img src="images/icons/back.png"> BACK
+</a>
+
+                      <ul class="targetDiv">
+                        <h3 class="hh">Beauty</h3>
+                          <li>AROMATHERAPY</li>
+                          <li>BODY</li>
+                          <li>NAILS</li>
+                          <li>ORAL & DENTAL CARE</li>
+                          <li>MAKE-UP</li>
+                          <li>FACE</li>
+                          <li>PERSONAL CARE</li>
+                          <li class="showSingle" target="2">HAIR</li>
+                          <li style="border-bottom: none;">FRAGRANCES</li>
+                      </ul>
+                       <ul id="div2" class="hide">
+                        <h3 class="hh">HAIR</h3>
+                          <li>AROMATHERAPY</li>
+                          <li class="showSingle" target="1">FRAGRANCES</li>
                       </ul>
                   </div>
               </div>
@@ -63,13 +115,37 @@
       <div class="logo">
         <span onclick="openNav()">
 
-            <img src="images/icons/hum.png" width="40px" style="padding-top: 17px;float: left;"></span>
-            <a href="#" class=""><img src="images/logo.png"></a></div>
+            <img src="images/icons/hum.png" class="log" width="40px" style=""></span>
+            <a href="#" class=""><img src="images/logo.png" class="algn"></a></div>
+            <nav class="nav-m">
+               <label class="dropdown">
+
+  <div class="dd-button">
+    Dropdown
+  </div>
+
+  <input type="checkbox" class="dd-input" id="test">
+
+  <ul class="dd-menu">
+    <li>Action</li>
+    <li>Another action</li>
+    <li>Something else here</li>
+    <li>
+      <a href="http://rane.io">Link to Rane.io</a>
+    </li>
+  </ul>
+  
+</label>
+  <a class="nav-link text-uppercase" href="#popup1" style="color: #000;">
+                       <img src="images/icons/Cart_Icon.svg" height="20" class="d-inline-block align-top" alt="My Cart"><br>
+                       
+                   </a>
+</nav>
 <form action="/search.html" class="search-wrapper cf">
         <input type="text" placeholder="Search  |  All Product" required="">
         <button type="submit"><i class="fa fa-search"></i></button>
     </form>
-            <nav>
+            <nav class="des">
                 <ul class="right">
                     <li class="nav-item text-center">
                       <a href="tel:+234700MEDPLUS">
@@ -85,7 +161,7 @@
                   </li>
                   <li class="nav-item text-center">
 
-                      <a class="nav-link text-uppercase" href="/cart">
+                      <a class="nav-link text-uppercase" href="#popup1">
                        <img src="images/icons/Cart_Icon.svg" height="20" class="d-inline-block align-top" alt="My Cart">
                        <p class="nav-link">Cart</p>
                    </a>
@@ -109,13 +185,125 @@
 
 <div class="container-fluid pd">
 <div class="row">
+  <!-- Filter Bar -->
+  <div class="col-12 col-md-12 mobile-filter">
+    <div class="filt">
+      <a id="sorts"class="sorting"><img src="images/icons/short.png"> Sort By</a>
+      <a href="" class="sorting girds"><img src="images/icons/menu.svg"></a>
+      <a id="shows" class="sorting"><img src="images/icons/equalizer.svg" class="eql">filter</a>
+    </div>
+  </div>
+<div class="col-12 col-md-12 select-sort">
+  <div class="row"> 
+  <div class="col-12 col-md-12">
+    <ul class="uls">
+      <li>Most Relevant</li>
+      <li>Price: Low to High</li>
+      <li>Price: High to Low</li>
+      <li>Popularity</li>
+      <li>Rating</li>
+    </ul>
+  </div>
+</div>
+</div>
+<div class="col-12 col-md-12 tab-filets">
+  <div class="row"> 
+        <div class="col-5 left-t">
+ <h2>Filter By</h2>
+         <!-- required for floating -->
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs tabs-left sideways">
+            <li class="active"><a href="#home-v" data-toggle="tab">Discount</a></li>
+            <li><a href="#profile-v" data-toggle="tab">Brand</a></li>
+            <li><a href="#messages-v" data-toggle="tab">Pricing</a></li>
+          </ul>
+        </div>
+
+        <div class="col-7 right-t">
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div class="tab-pane active" id="home-v"> 
+              <form>
+    <div class="form-group">
+      <input type="checkbox" id="html">
+      <label for="html">10% Off or more</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="css">
+      <label for="css">20% Off or more</label>
+    </div>
+  </form>
+</div>
+            <div class="tab-pane" id="profile-v">
+              <form>
+    <div class="form-group">
+      <input type="checkbox" id="html">
+      <label for="html">212</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="css">
+      <label for="css">BEYONCE</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="html">
+      <label for="html">BVLGARI</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="css">
+      <label for="css">calvin klein</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="html">
+      <label for="html">DIOR</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="css">
+      <label for="css">Britiney Spears</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="css">
+      <label for="css">HUGO BOSS</label>
+    </div>
+    <div class="form-group">
+      <input type="checkbox" id="css">
+      <label for="css">OLD SPICE</label>
+    </div>
+  </form>
+            </div>
+            <div class="tab-pane" id="messages-v">
+               <div class="range-slider">
+    <input type="text" class="js-range-slider" value="" />
+</div>
+<div class="extra-controls form-inline">
+  <div class="form-group">
+    <input type="text" class="js-input-from form-control" value="0" />
+    <input type="text" class="js-input-to form-control" value="0" />
+</div>
+  </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="row">
+  <!-- Filter Bar -->
+  <div class="col-12 col-md-12 mobile-filter">
+    <div class="filt">
+      <a id="sorts"class="sorting"><img src="images/icons/reset.svg">Reset all</a>
+      <a id="hides" class="sorting girds"><img src="images/icons/closee.svg">close</a>
+      <a href="" class="sorting"><img src="images/icons/apply.svg" class="eql">apply</a>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- End BAr -->
   <div class="col-lg-12">
   <h1 class="text-body text-center font-secondary mb-5 t-w200"> <span class="font-weight-bold">PRODUCTS</span></h1>
 </div>
-
 </div>
 <div class="row">
-  <div class="col-md-3">
+  <div class="col-md-3 mobil-h">
    <div class="row filters-row">
      <div class="col-md-12 clear">
        <h2>Refine</h2>
@@ -244,8 +432,8 @@
      </div>
    </div>
   </div>
-  <div class="col-md-9">
-    <div class="row">
+  <div class="col-12 col-md-9">
+    <div class="row mobil-h">
       <div class="col-md-4">
   <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
@@ -321,7 +509,7 @@
   <input type="radio" id="1-star" name="rating" value="1" />
   <label for="1-star" class="star">&#9733;</label>
 </div>
-<p style="text-align: center;">
+<p style="text-align: center; ">
   <a href="" class="pbtn">Buy Now</a> 
 </p>
         </div>
@@ -430,7 +618,7 @@
         </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row last-ms">
     <div class="col-12 col-sm-8 col-md-6 col-lg-4 products-card">
       <div class="card">
         <img class="card-img" src="images/7.png" alt="Vans">
@@ -511,16 +699,16 @@
 
 
 <div class="container-fluid bg-dark px-0 py-4 mt-5">
-    <div class="container-xl small py-5 text-white">
+    <div class="container-xl small text-white">
       <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-3 col order-sm-2 sm-text-center mb-sm-3 p-t">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 col-xl-3 col-3 col order-sm-2 sm-text-center mb-sm-3 p-t mbb m-m-t m-m-b">
           <h5 class="text-uppercase small font-weight-bold havy-t">CONTACT US</h5>
           <p>Head office: 45, Saka Tinubu Street,
             Victoria Island, Lagos</p>
           <p>Phone number: <a href="tel:+234700MEDPLUS" class="text-white"> 0700 MED PLUS</a></p>
           <p><a href="mailto:Info@medplusng.com" class="text-white"> Info@medplusng.com</a></p>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-3 sm-text-center mb-sm-3 p-t">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-3 sm-text-center mb-sm-3 p-t mbb m-m-b">
           <h5 class="text-uppercase small font-weight-bold havy-t">customer service</h5>
           <ul class="list-unstyled">
             <li class="nav-item">
@@ -543,7 +731,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-4 sm-text-center mb-sm-3 p-t">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-2 col-xl-2 col-2 col order-sm-4 sm-text-center mb-sm-3 p-t mbb m-m-b">
           <h5 class="text-uppercase small font-weight-bold havy-t">ABOUT US</h5>
           <ul class="list-unstyled">
             <li class="nav-item">
@@ -576,30 +764,22 @@
         </div>
       </div>
       <div class="row small">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 sm-text-center mb-sm-3">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 sm-text-center mb-sm-3 mbb m-m-b">
           <div class="social mb-2">
             <p class="text-white sm-text-center text-left text-uppercase font-weight-bold havy-t">Engage with us.</p>
-            <ul class="nav sm-justify-content-center">
-              <li class="nav-item">
-                <a class="pr-3" target="_blank" href="https://facebook.com/MedplusPharmacy/">
-                  <img src="/themes/medplus/img/facebook-social.png" width="25">
+            <a class="pr-3" target="_blank" href="https://facebook.com/MedplusPharmacy/">
+                  <img src="images/icons/facebook-social.png" width="25">
                 </a>
-              </li>
-              <li class="nav-item">
-                <a class="pr-3" target="_blank" href="https://twitter.com/MedplusPharmacy/">
-                  <img src="/themes/medplus/img/twitter-social.png" width="25">
+                 <a class="pr-3" target="_blank" href="https://twitter.com/MedplusPharmacy/">
+                  <img src="images/icons/twitter-social.png" width="25">
                 </a>
-              </li>
-              <li class="nav-item">
                 <a class="pr-3" target="_blank" href="https://www.instagram.com/medpluspharmacyng/">
-                  <img src="/themes/medplus/img/instagram-social.png" width="25">
+                  <img src="images/icons/instagram-social.png" width="25">
                 </a>
-              </li>
-            </ul>
           </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 align-self-center p-t">
-          <ul class="nav sm-justify-content-center justify-content-end">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 align-self-center p-t mbb m-m-b">
+          <ul class="nav sm-justify-content-center ">
             <li class="nav-item border-right">
               <a href="#" class="nav-link text-white link-hover pt-0">Terms &amp; Condition</a>
             </li>
@@ -612,17 +792,18 @@
           </ul>
         </div>
       </div>
-      <hr class="bg-white my-3">
+      <hr class="bg-white my-3" style="margin-top: 0 !important;">
       <div class="row small">
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
-          <p class="text-white sm-text-center text-left mb-0">2019 Medplus. All right reserved.</p>
+          <p class="text-white sm-text-center mb-0 m-t ">2019 Medplus. All right reserved.</p>
         </div>
         <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-6 col mt-sm-1 p-t">
           <a href="http://dmtca.com" target="_blank">
-            <p class="text-white sm-text-center text-right link-hover mb-0">Powered By <span class="font-weight-bold">DMTCA</span></p>
+            <p class="text-white sm-text-center link-hover mb-0 m-t wb">Powered By <span class="font-weight-bold">DMTCA</span></p>
           </a>
         </div>
       </div>
+
     </div>
   </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
