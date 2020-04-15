@@ -49,11 +49,11 @@ body {
 }
 
 .navbar-toggler-icon {
-  background-image: url("../img/design_assets/navigation.svg") !important;
+  background-image: url("../design_assets/navigation.svg") !important;
 }
 
 .search_bg {
-  background-image: url("../img/design_assets/search_bg.svg") !important;
+  background-image: url("../design_assets/search_bg.svg") !important;
   margin-left: -13px;
   margin-top: -5px;
   z-index: 4;
